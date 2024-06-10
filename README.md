@@ -1,8 +1,6 @@
 # Stack Overflow for Teams API Import (so4t_api_import)
 An API script for Stack Overflow for Teams that facilitates bulk-importing questions, answers, or articles from a CSV file.
 
-This script is offered with no formal support from Stack Overflow. If you run into issues using the script, please [open an issue](https://github.com/jklick-so/so4t_api_import/issues) and/or reach out to the person who provided it to you. You are also welcome to edit the script to suit your needs.
-
 ## Requirements
 * A Stack Overflow for Teams instance (Business or Enterprise)
 * Python 3.x ([download](https://www.python.org/downloads/))
@@ -62,4 +60,4 @@ Adding the `--impersonate` argument to the basic usage of the script allows you 
 * Source content that contains images, embeds, and attachments cannot be imported via API. Images can be imported by copy-paste after the bulk import is completed. Embeds and attachments can be likewise added post-import by either copying their contents or hyperlinking to the external file. 
 * Question imports are currently designed to support importing a single, corresponding answer. This is on the backlog for improvement.
 
-If you encounter any major hurdles -- known or otherwise -- please [report them](https://github.com/jklick-so/so4t_api_import/issues) so improvements can be made, or feel free to make your own changes as needed.
+If you encounter problems using the script, please open a support issue with Stack Overflow. You can also clone and change the script to suit your needs. It is provided as-is, with no warranty or guarantee of any kind.
